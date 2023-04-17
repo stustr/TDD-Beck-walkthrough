@@ -80,7 +80,7 @@ class MoneyTest {
         Money result =
                 bank.reduce(fiveBucks.plus(tenFrancs),
                         "USD");
-        assertEquals(Money.dollar(10, result));
+        assertEquals(Money.dollar(10), result);
     }
 
 
